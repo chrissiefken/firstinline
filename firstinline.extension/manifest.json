@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "One-click Kittens",
-  "description": "This extension demonstrates a 'browser action' with kittens.",
+  "name": "First In Line",
+  "description": "You choose the shoe, we'll seal the deal for you.",
   "version": "1.0",
 
   "browser_action": {
@@ -10,6 +10,15 @@
     "default_popup": "index.html"
   },
   "permissions": [
-    "https://secure.flickr.com/"
-  ]
+    "http://firstinline.me",
+    "self",
+    "https://code.jquery.com"
+  ],
+  "content_scripts": [
+    {
+      "js" : ["js.js", "*.js"]
+
+    }
+  ],
+  "content_security_policy": "https://code.jquery.com http://firstinline.me"
 }
