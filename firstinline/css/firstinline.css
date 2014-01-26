@@ -1,4 +1,3 @@
-.navbar-brand
-{
-    color: #B87A2B;
+.navbar-default .navbar-brand {
+  color: #B87A2B !important;
 }

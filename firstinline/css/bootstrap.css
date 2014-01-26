@@ -4779,8 +4779,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   float: left;
   padding: 11px 15px;
-  font-size: 17px;
-  line-height: 18px;
+  font-size: 35px;
+  line-height: 45px;
 }
 
 .navbar-brand:hover,
@@ -4831,7 +4831,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;
-  line-height: 18px;
+  line-height: 48px;
+  font-size: 33px
 }
 
 @media (max-width: 767px) {
@@ -5091,7 +5092,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse {
-  background-color: #d9230f;
+  background-color: #B87A2B;
   border-color: #a91b0c;
 }
 
